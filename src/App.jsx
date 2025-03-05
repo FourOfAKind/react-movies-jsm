@@ -9,7 +9,7 @@ const App = () => {
 
             <div className={"wrapper"}>
                 <header>
-                    <img src={"./hero-img.png"}/>
+                    <img src={"./hero-img.png"} alt={"Hero"}/>
                     <h1>Find <span className={"text-gradient"}>Movies</span> that you&#39;ll love</h1>
 
                 </header>
