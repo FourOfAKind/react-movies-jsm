@@ -3,7 +3,7 @@ const Movie = ({movie:
     { title, vote_average, poster_path, release_date, original_language}}) => {
     return (
         <div className={"movie-card"}>
-            <img src={poster_path ? `https://image.tmdb.org/t/p/w500/${poster_path}` : '/no-movie.png'} alt={title}/>
+            <img src={poster_path ? `https://image.tmdb.org/t/p/w500/${poster_path}` : './No-Poster.png'} alt={title}/>
             <h3 className={"text-xl mt-4"}>{title}</h3>
             <div className={"content"}>
                 <img src={"/Rating.svg"} className={"w-5"} />
